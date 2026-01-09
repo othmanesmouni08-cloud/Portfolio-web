@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Othmane | Portfolio</title>
+
+<style>
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* PAGE */
+body {
+  background: #ececec;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* CARD*/
+.card {
+  width: 340px;
+  height: 520px;
+  background: #3a3f4b;
+  color: #ffffff;
+  position: relative;
+  border-radius: 6px;
+  padding: 30px;
+}
+
+/*  TOP NAME */
+.name {
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* LEFT FRAME  */
+.left-frame {
+  position: absolute;
+  top: 110px;
+  left: 30px;
+  width: 120px;
+  height: 220px;
+  border-left: 2px solid #ffffff;
+  border-top: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+/* MAIN TITLE */
+.title {
+  position: absolute;
+  top: 170px;
+  left: 80px;
+}
+
+.title h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.title p {
+  font-size: 1rem;
+  margin-top: 5px;
+  opacity: 0.9;
+}
+
+/* TITLE LINE  */
+.title-line {
+  position: absolute;
+  top: 260px;
+  left: 80px;
+  width: 120px;
+  height: 2px;
+  background: #ffffff;
+}
+
+/* YEAR */
+.year {
+  position: absolute;
+  bottom: 110px;
+  left: 80px;
+  font-size: 0.9rem;
+  opacity: 0.85;
+}
+
+/* BOTTOM LINE  */
+.bottom-line {
+  position: absolute;
+  bottom: 60px;
+  left: 30px;
+  width: 200px;
+  height: 2px;
+  background: #ffffff;
+}
+
+/* WEBSITE  */
+.website {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  font-size: 0.75rem;
+  opacity: 0.7;
+}
+
+/* TOP RIGHT LINE  */
+.top-right-line {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 2px;
+  height: 60px;
+  background: #ffffff;
+}
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+  <div class="top-right-line"></div>
+
+  <p class="name">Othmane</p>
+
+  <div class="left-frame"></div>
+
+  <div class="title">
+    <h1>Othmane.</h1>
+    <p>Full-Stack Developer</p>
+  </div>
+
+  <div class="title-line"></div>
+
+  <p class="year">2025-2030</p>
+
+  <div class="bottom-line"></div>
+
+  <p class="website">www.othmane.dev</p>
+
+</div>
+<script src="script.js"></script>
+</body>
+</html>
