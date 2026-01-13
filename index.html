@@ -78,11 +78,13 @@ main {
     transition: opacity 0.6s ease, transform 0.6s ease;
     max-width: 700px;
     padding: 20px;
+    pointer-events: none;
 }
 
 .section.active {
     opacity: 1;
     transform: translateY(0);
+    pointer-events: auto;
 }
 
 /* TITLES */
@@ -357,13 +359,13 @@ Trained in system administration and computer networks, with hands-on experience
 </section>
 
 
-    <section id="contact" class="section">
+<section id="contact" class="section">
         <h2>Contact</h2>
-        <p>• Email : <a href="othmanesmouni08@gmail.com">othmanesmouni08@gmail.com</a></p>
+        <p>• Email : <a href="mailto:othmanesmouni08@gmail.com">othmanesmouni08@gmail.com</a></p>
         <p>• LinkedIn: <a href="//www.linkedin.com/in/othmane-smouni-152904301/">//www.linkedin.com/in/othmane-smouni-152904301/</a></p>
         <p>• GitHub: <a href="https://github.com/othmanesmouni08-cloud ">//github.com/othmanesmouni08-cloud</a> </p>
-    </section>
-    <section id="projects" class="section">
+</section>
+<section id="projects" class="section">
   <h2>Projects</h2>
 
   <div class="projects-grid">
@@ -410,8 +412,9 @@ Trained in system administration and computer networks, with hands-on experience
   </p>
   <a href="https://github.com/othmanesmouni08-cloud/Portfolio-web" target="_blank" rel="noopener">
     View on GitHub →
-  </a>
-</div>
+        </a>
+    </div>
+    </div>
 </section>
 
 <section id="certificates" class="section">
@@ -426,7 +429,7 @@ Trained in system administration and computer networks, with hands-on experience
     </div>
 
     <div class="certificate-card">
-      <h3>🌐 Learn Express.js<Express class="js"></Express></h3>
+      <h3>🌐 Learn Express.js<Express class="js"></h3>
       <p>Training focused on Express.js</p>
       <a href="/docs/Express.pdf" target="_blank" rel="noopener">View Certificate →</a>
     </div>
